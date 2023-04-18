@@ -5,7 +5,7 @@
 #
 Name     : pypi-pipdeptree
 Version  : 2.7.0
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/86/62/309b36c833a99518d35998df58271a15756f847ed66e2e46896d7df49f53/pipdeptree-2.7.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/86/62/309b36c833a99518d35998df58271a15756f847ed66e2e46896d7df49f53/pipdeptree-2.7.0.tar.gz
 Summary  : Command line utility to show dependency tree of packages.
@@ -79,7 +79,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1681783938
+export SOURCE_DATE_EPOCH=1681788728
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
