@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-pipdeptree
-Version  : 2.9.5
-Release  : 11
-URL      : https://files.pythonhosted.org/packages/89/86/cd4899dd11f30802f3ec5631ffc735ad120739c1e93ce51e4392ebc640b7/pipdeptree-2.9.5.tar.gz
-Source0  : https://files.pythonhosted.org/packages/89/86/cd4899dd11f30802f3ec5631ffc735ad120739c1e93ce51e4392ebc640b7/pipdeptree-2.9.5.tar.gz
+Version  : 2.10.2
+Release  : 12
+URL      : https://files.pythonhosted.org/packages/38/ab/786755726dc0de69d4b8e947ba77230c2e7ee75fbcb058183c0fef08361f/pipdeptree-2.10.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/38/ab/786755726dc0de69d4b8e947ba77230c2e7ee75fbcb058183c0fef08361f/pipdeptree-2.10.2.tar.gz
 Summary  : Command line utility to show dependency tree of packages.
 Group    : Development/Tools
 License  : MIT
@@ -29,6 +29,10 @@ BuildRequires : pypi-virtualenv
 
 %description
 # pipdeptree
+[![PyPI](https://img.shields.io/pypi/v/pipdeptree)](https://pypi.org/project/pipdeptree/)
+[![Supported Python
+versions](https://img.shields.io/pypi/pyversions/pipdeptree.svg)](https://pypi.org/project/pipdeptree/)
+[![Downloads](https://pepy.tech/badge/pipdeptree/month)](https://pepy.tech/project/pipdeptree)
 [![check](https://github.com/tox-dev/pipdeptree/actions/workflows/check.yml/badge.svg)](https://github.com/tox-dev/pipdeptree/actions/workflows/check.yml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/tox-dev/pipdeptree/main.svg)](https://results.pre-commit.ci/latest/github/tox-dev/pipdeptree/main)
 
@@ -69,10 +73,10 @@ python3 components for the pypi-pipdeptree package.
 
 
 %prep
-%setup -q -n pipdeptree-2.9.5
-cd %{_builddir}/pipdeptree-2.9.5
+%setup -q -n pipdeptree-2.10.2
+cd %{_builddir}/pipdeptree-2.10.2
 pushd ..
-cp -a pipdeptree-2.9.5 buildavx2
+cp -a pipdeptree-2.10.2 buildavx2
 popd
 
 %build
@@ -80,7 +84,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1689089913
+export SOURCE_DATE_EPOCH=1689613080
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
