@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : pypi-pipdeptree
-Version  : 2.20.0
-Release  : 30
-URL      : https://files.pythonhosted.org/packages/ad/9a/9999b3052c08af15fbc4e9420cb74456b887b053f31039f54679c370ed33/pipdeptree-2.20.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/ad/9a/9999b3052c08af15fbc4e9420cb74456b887b053f31039f54679c370ed33/pipdeptree-2.20.0.tar.gz
+Version  : 2.21.0
+Release  : 31
+URL      : https://files.pythonhosted.org/packages/b2/54/9c24f34c914e040f241287243a62a8cf373bfe0802dbcf7bda3a61ce06a1/pipdeptree-2.21.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/b2/54/9c24f34c914e040f241287243a62a8cf373bfe0802dbcf7bda3a61ce06a1/pipdeptree-2.21.0.tar.gz
 Summary  : Command line utility to show dependency tree of packages.
 Group    : Development/Tools
 License  : MIT
@@ -77,10 +77,10 @@ python3 components for the pypi-pipdeptree package.
 
 
 %prep
-%setup -q -n pipdeptree-2.20.0
-cd %{_builddir}/pipdeptree-2.20.0
+%setup -q -n pipdeptree-2.21.0
+cd %{_builddir}/pipdeptree-2.21.0
 pushd ..
-cp -a pipdeptree-2.20.0 buildavx2
+cp -a pipdeptree-2.21.0 buildavx2
 popd
 
 %build
@@ -88,7 +88,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1715130315
+export SOURCE_DATE_EPOCH=1716263771
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
