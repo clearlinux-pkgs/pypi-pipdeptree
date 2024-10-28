@@ -7,7 +7,7 @@
 #
 Name     : pypi-pipdeptree
 Version  : 2.23.4
-Release  : 36
+Release  : 37
 URL      : https://files.pythonhosted.org/packages/66/b6/389a1148d7b1bc5638d4e9b2d60390f8cfb4c30e34cff68165cbd9a29e75/pipdeptree-2.23.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/66/b6/389a1148d7b1bc5638d4e9b2d60390f8cfb4c30e34cff68165cbd9a29e75/pipdeptree-2.23.4.tar.gz
 Summary  : Command line utility to show dependency tree of packages.
