@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pipdeptree
-URL = https://files.pythonhosted.org/packages/47/fd/48835ffa0d70b8a861cf8986771dfdfc3245e9886e50e951a7500cad64db/pipdeptree-2.26.0.tar.gz
+URL = https://files.pythonhosted.org/packages/74/ef/9158ee3b28274667986d39191760c988a2de22c6321be1262e21c8a19ccf/pipdeptree-2.26.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
